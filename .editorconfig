@@ -1,0 +1,46 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.sh]
+indent_style = space
+indent_size = 2
+shell_variant = bash
+binary_next_line = true
+switch_case_indent = true
+function_next_line = true
+keep_padding = true
+space_redirects = true
+
+[*.py]
+indent_style = space
+indent_size = 4
+max_line_length = 88
+ensure_newline_before_comments = true
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+combine_as_imports = true
+
+[Makefile]
+indent_style = tab
+indent_size = 4
+tab_width = 4
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{json,jsonc}]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+quote_type = double
+
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+quote_type = single

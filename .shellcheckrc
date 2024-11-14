@@ -1,0 +1,12 @@
+# Allow using source to read files outside of script directory
+external-sources=true
+
+# Set shell dialect
+shell=bash
+
+# Disable some checks
+disable=SC2016  # Allow single quotes in expressions
+disable=SC2155  # Don't warn about declare/assign statements
+
+# Format output
+color=tty
